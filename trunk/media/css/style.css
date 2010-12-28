@@ -1,0 +1,85 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td{margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent}
+body{line-height:1}
+ol, ul{list-style:none}
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after,
+q:before, q:after{content:''; content:none}
+/* remember to define focus styles! */
+:focus{outline:0}
+.clearfix{clear:both;}
+/* remember to highlight inserts somehow! */
+ins{text-decoration:none}
+del{text-decoration:line-through}
+/* tables still need 'cellspacing="0"' in the markup */
+table{border-collapse:collapse; border-spacing:0}
+html,html body {height:100%; width: 100%; min-width:100%}
+/* EOF CSS Reset */
+
+body{background: #838BC9;}
+#header{height: 100px; }
+#footer{height: 100px;}
+#content{min-height: 300px;}
+.wrapper_960{position: relative;width: 960px; margin: 20px auto;background: #CFCFCF;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);}
+
+/* Optional. You can remove anything below this point */
+
+/* Flash errors */
+
+/* Pagination */
+.pagination {height:26px; float: right;}
+.paginate { font:bold 12px Tahoma,Arial,Helvetica,sans-serif; color: #ED7912; border-right: 1px solid #000000; padding:0 6px;text-decoration: none; float: left; text-align: center;}
+.pagination .last, .pagination .last a { border: none;}
+.paginate a{ text-decoration: none; color: #ED7912}
+.pagination .current a{color: #000000}
+.pagination .current {color: #000000}
+
+/* Articles */
+.articles_wrapper{padding: 20px;}
+.articles {color: #FFFFFF; height: 30px; line-height: 30px; padding:20px 20px 20px 40px; margin: 20px; background: #883322;font:bold 24px Tahoma,Arial,Helvetica;}
+.articles a{color: #FFFFFF;text-decoration: none;}
+
+/* Common */
+.orange{color:#ed7912}
+.gray{color:#252525}
+.light_gray{color: #ADADAD;}
+.white { color:#FFFFFF;}
+.black { color:#000000;}
+.small{font:normal normal 13px/16px Tahoma,Arial,sans-serif;}
+.tiny{font:normal normal 12px/14px Tahoma,Arial,sans-serif;}
+.medium{font:normal normal 16px/30px Tahoma,Arial,sans-serif;}
+.big{font:normal normal 24px/30px Tahoma,Arial,sans-serif;}
+.huge{font:normal normal 36px/72px Tahoma,Arial,sans-serif;}
+.x-small{font:normal normal 9px/11px Tahoma,Arial,sans-serif;}
+.italic{font-style:italic}
+.bold{font-weight:bold;}
+.thin{font-weight: lighter;}
+.left{text-align: left;}
+.right{text-align: right;}
+.center{text-align: center;}
+.shadow{text-shadow:1px 1px 1px #333333;}
+.gradient{	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4); background: #8b8b8b; /* for non-css3 browsers */ filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#a9a9a9', endColorstr='#7a7a7a'); /* for IE */ background: -webkit-gradient(linear, left top, left bottom, from(#a9a9a9), to(#7a7a7a)); /* for webkit browsers */	background: -moz-linear-gradient(top,  #a9a9a9,  #7a7a7a); /* for firefox 3.6+ */ text-shadow: 0 1px 1px rgba(0, 0, 0, .3);	border: solid 1px #6d6d6d;}
+.round {-moz-border-radius: 2em 0.5em 2em 0.5em;border-radius: 2em 0.5em 2em 0.5em;}
+.big_white{text-align: center;font:bold 36px Tahoma,Arial,Helvetica; line-height: 100px; color: #FFFFFF;}
+.login{position: absolute; height: 20px; width:48px; top: 0px; right:0px;font:bold 12px Tahoma,Arial,Helvetica,sans-serif; color: #FFFFFF;}
+a {color: #FFFFFF;}
+input{width: 96%; height: 24px;}
+code { font-family: monaco, monospace; }
+table { border-collapse: collapse; width: 100%; }
+table th, table td { padding: 0.4em; text-align: left; vertical-align: top; }
+table th { width: 12em; font-weight: normal; }
+table tr:nth-child(odd) { background: #eee; }
+table td.pass { color: #191; }
+table td.fail { color: #911; }
+#results { padding: 0.8em; color: #fff; font-size: 1.5em; }
+#results.pass { background: #191; }
+#results.fail { background: #911; }
+
